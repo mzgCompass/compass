@@ -1,0 +1,48 @@
+.BgWhite{
+  background-color: #fff;
+}
+
+.MainWrapper{
+  margin: 0.3rem auto 0;
+  padding-bottom: 0.5rem;
+}
+
+.LifeWrapper{
+  margin-top: 0.5rem;
+  .itemImgWrapper{
+    width: 2rem;
+    height: 1.06rem;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover{
+      .listImg{
+        transform: scale(1.1);
+      }
+    }
+  }
+  .listImg{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+  }
+  .item{
+    transition: all 0.6s ease 0s;
+    .desc{
+      height: 0.7rem;
+      overflow: hidden;
+      line-height: 160%;
+      font-size: 0.14rem;
+    }
+  }
+  li{
+    list-style: none;
+  }
+  .title{
+    color: #555;
+    font-weight: 600;
+    font-size: 0.18rem;
+    &:hover{
+      color: #ff7327;
+    }
+  }
+}
